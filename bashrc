@@ -1,3 +1,15 @@
+# exports specific to Windows environment
+export MSYS2_PATH_TYPE=inherit                  # Inherit Windows PATH instead of replacing it
+alias explore='explorer.exe .'                  # Open the current directory in Windows File Explorer
+alias open='start'                              # Open a file with its default Windows application
+alias clip='clip.exe'                           # Copy pipe output to the Windows clipboard
+alias desktop='cd /c/Users/$USER/Desktop'
+alias downloads='cd /c/Users/$USER/Downloads'
+alias documents='cd /c/Users/$USER/Documents'
+alias ipconfig='ipconfig.exe'
+alias tlist='tasklist.exe'
+alias tkill='taskkill.exe'
+
 # Listing directory shortcuts
 alias ls='ls -hF --color=tty'                   # classify files in color
 alias dir='ls -lh --color=auto'
