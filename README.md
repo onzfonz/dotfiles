@@ -14,7 +14,18 @@ After cloning the repo (I cloned mine to my home directory), to use the file as 
 ln -s ~/dotfiles/bashrc ~/.bashrc
 ```
 
-> *FYI:* If you get an error because you have an existing bashrc file,
+You can verify that this worked as a link by doing
+
+```shell
+ls -l ~/.bashrc
+```
+
+If the file shows up with properties like `lrwxrwxrwx` and not like `-rw-r--r--`, then you created a symbolic link.
+
+If this didn't happen, then most likely your OS decided to just make a copy of the file.
+Keep that in mind if you make changes in the future.
+
+> *Troubleshooting:* If you get an error because you have an existing bashrc file,
 > Open the file and take some time to review your commands along with these commands and make your own modifications to the *dotfiles/bashrc* file in the dotfiles repo.
 > Then once you are comfortable, you can remove the *.bashrc* file and try doing the symbolic link again.
 >> If you get errors related to not finding the bashrc file, *Make sure to modify your repo path (e.g. `~/git/dotfiles/bashrc`) accordingly*

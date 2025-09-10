@@ -28,7 +28,7 @@ alias -- -="cd -"
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
-alias mkdir='mkdir -p' # Create parent directories as needed
+alias mkdir='mkdir -p'                          # Create parent directories as needed
 
 # git commands
 alias g='git'
@@ -41,18 +41,18 @@ alias gdc='git diff --cached --color-words'
 alias gf='git fetch'
 alias gl='git log --oneline --graph --decorate --all'
 alias gp='git push'
-alias gs='git status -s'
+alias gs='git status'
 
 # System shortcuts
-alias h='history' # show command history
-alias j='jobs -l' # list active jobs
-alias df='df -h'  # human-readable disk usage
-alias du='du -h --max-depth=1'  # human-readable disk usage of current directory
-alias free='free -h'  # human-readable memory usage
-alias top='htop'  # better interactive process viewer
+alias h='history'                               # show command history
+alias j='jobs -l'                               # list active jobs
+alias df='df -h'                                # human-readable disk usage
+alias du='du -h --max-depth=1'                  # human-readable disk usage of current directory
+alias free='free -h'                            # human-readable memory usage
+alias top='htop'                                # better interactive process viewer
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'  # get public IP address
-alias path='echo -e ${PATH//:/\\n}'  # display each PATH entry on a new line
-alias port='netstat -tulanp'  # list open ports and associated programs
+alias path='echo -e ${PATH//:/\\n}'             # display each PATH entry on a new line
+alias port='netstat -tulanp'                    # list open ports and associated programs
 
 # Custom functions
 # psg: search for processes matching a pattern (case insensitive)
