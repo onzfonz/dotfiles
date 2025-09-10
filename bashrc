@@ -29,7 +29,7 @@ alias gdc='git diff --cached --color-words'
 alias gf='git fetch'
 alias gl='git log --oneline --graph --decorate --all'
 alias gp='git push'
-alias gs='git status -s'
+alias gs='git status'
 
 # System shortcuts
 alias h='history'                               # show command history
