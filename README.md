@@ -37,3 +37,9 @@ You can reload the bashrc file by opening and closing your terminal window or by
 ```shell
 source ~/.bashrc
 ```
+
+### Acknowledgements
+
+Much of this is based off work from [Mathias Bynens](https://github.com/mathiasbynens/dotfiles).
+This is not a fork of that repo, as it is has many more features than we need for our purposes,
+but should you want to tweak your configuration further, it is a good place to start.
