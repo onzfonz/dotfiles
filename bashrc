@@ -42,6 +42,7 @@ alias top='htop'                                # better interactive process vie
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'  # get public IP address
 alias path='echo -e ${PATH//:/\\n}'             # display each PATH entry on a new line
 alias port='netstat -tulanp'                    # list open ports and associated programs
+alias update='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade'
 
 # Custom functions
 # psg: search for processes matching a pattern (case insensitive)
